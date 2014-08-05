@@ -6,7 +6,7 @@ the following elements are needed in order to build and then use OCaml-Java:
   - GNU Make 3.81
   - Apache Ant 1.9.0
   - JDK 1.7, with the "JAVA_HOME" environment variable properly set
-
+  - zlib 1.2.8 (http://zlib.net, zlib1g-dev package for ubuntu users)
 Installation steps:
 -------------------
 ./configure.sh -prefix <path> [options]  # also checks dependencies
